@@ -12,7 +12,7 @@ export default function Test() {
 
     return <>
         <Head>
-            <script on src="/scripts/jitsi.js" />
+            <script src="/scripts/jitsi.js" />
         </Head>
         {visible
             ? < Jitsi displayName="XDP" onHangUp={() => setVisible(false)} />
